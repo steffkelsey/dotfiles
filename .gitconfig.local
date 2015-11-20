@@ -1,0 +1,9 @@
+[alias]
+  b = branch
+  ch = checkout
+  m = merge
+  s = status
+  lp = log --pretty=format:"%h : %s"
+[user]
+  name = Steff Kelsey
+  email = sk@lavjaveler.com
