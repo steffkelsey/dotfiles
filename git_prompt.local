@@ -65,5 +65,7 @@ git_prompt_string() {
 }
 
 # Set the right-hand prompt
-RPS1='$(git_prompt_string)'
-PS1='%~ $ '
+# RPS1='$(git_prompt_string)'
+# set the left hand prompt
+PS1='%~ $(git_prompt_string)
+$ ' # easy way to make it multiline
