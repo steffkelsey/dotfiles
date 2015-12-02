@@ -1,1 +1,9 @@
 alias tw='open -a /Applications/TextWrangler.app'
+
+# android aliases
+alias sdk='android sdk'
+alias devices='adb devices'
+alias gr='./gradlew'
+alias grc='./gradlew check'
+alias grt='./gradlew test'
+alias mkapk='./gradlew assembleRelease'
