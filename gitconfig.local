@@ -4,6 +4,7 @@
   m = merge
   s = status
   lp = log --pretty=format:'%h : %s'
+  fxp = commit --fixup
 [user]
   name = Steff Kelsey
   email = sk@lavjaveler.com
