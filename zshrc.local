@@ -1,7 +1,5 @@
-export ANDROID_HOME=~/Library/Android/sdk
-export KOTLIN_HOME=/usr/local/Cellar/kotlin/1.0.6
-export PATH=${PATH}:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:/usr/local/opt/openssl/bin
+export ANDROID_HOME=/mnt/c/Users/sk/AppData/Local/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 source ~/.git_prompt.local
-source $(brew --prefix nvm)/nvm.sh
 
