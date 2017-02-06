@@ -10,6 +10,7 @@ alias mkapk='./gradlew assembleRelease'
 alias em19='emulator -avd testAVD19 -gpu on'
 alias em23='emulator -avd testAVD23 -gpu on'
 alias em23gapi='emulator -avd Nexus5Api23 -gpu on'
+alias startssh='eval $(ssh-agent -s); ssh-add ~/.ssh/id_rsa'
 
 # thefuck
 eval "$(thefuck --alias)"
