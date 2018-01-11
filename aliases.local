@@ -1,10 +1,10 @@
 alias tw='open -a /Applications/TextWrangler.app'
 
 # ruby shit
-be='bundle exec'
+alias be='bundle exec'
 
 # docker shit
-de='docker exec'
+alias de='docker exec'
 
 # android aliases
 alias sdk='sdkmanager'
