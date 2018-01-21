@@ -19,5 +19,9 @@ alias em23gapi='emulator -avd Nexus5Api23 -gpu on'
 alias startssh='eval $(ssh-agent -s); ssh-add ~/.ssh/id_rsa'
 alias projects='cd /mnt/d/Projects'
 
+# Video Converts
+alias vidconv=for i (**/*.mkv(D)) avconv -i $i -map 0 -c:v libx264 -crf 18 -c:s copy out/$iout
+
 # thefuck
 eval "$(thefuck --alias)"
+
