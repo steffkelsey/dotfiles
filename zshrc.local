@@ -1,6 +1,8 @@
 export ANDROID_HOME=~/Library/Android/sdk
+export GOPATH=$HOME/go
 export KOTLIN_HOME=/usr/local/Cellar/kotlin/1.0.6
-export PATH=${PATH}:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:/usr/local/opt/openssl/bin
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export PATH=${PATH}:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:/usr/local/opt/openssl/bin:${JAVA_HOME}/bin:/Applications/terraform
 
 source ~/.git_prompt.local
 source $(brew --prefix nvm)/nvm.sh

@@ -6,6 +6,9 @@ alias be='bundle exec'
 # docker shit
 alias de='docker exec'
 
+# git repo helper
+alias gitme='g fetch --all; g pull'
+
 # android aliases
 alias sdk='sdkmanager'
 alias devices='adb devices'
@@ -20,3 +23,6 @@ alias startssh='eval $(ssh-agent -s); ssh-add ~/.ssh/id_rsa'
 
 # thefuck
 eval "$(thefuck --alias)"
+
+# ios aliases
+alias updateiostools='bundle install; bundle exec pod install --repo-update'
