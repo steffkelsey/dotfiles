@@ -26,3 +26,8 @@ eval "$(thefuck --alias)"
 
 # ios aliases
 alias updateiostools='bundle install; bundle exec pod install --repo-update'
+
+# macOS shit
+alias bu='brew update'
+alias bo='brew outdated'
+alias bupg='brew upgrade'
