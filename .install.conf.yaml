@@ -1,0 +1,20 @@
+- defaults:
+    link:
+        relink: true
+        force: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.aliases: 'aliases.zsh'
+    ~/.git_prompt: 'git_prompt'
+    ~/.vimrc: 'vimrc'
+    ~/.vimrc: 'vimrc'
+    ~/.vimrc.bundles: 'vimrc.bundles'
+    ~/.zshrc: 'zshrc'
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [sh configure-vim-plug.sh, Configuring vim-plug]
+
