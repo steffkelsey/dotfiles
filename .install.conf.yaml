@@ -8,7 +8,11 @@
 - link:
     ~/.dotfiles: ''
     ~/.aliases: 'aliases.zsh'
+    ~/.gitconfig: 'gitconfig'
+    ~/.gitignore: 'gitignore'
+    ~/.gitmessage: 'gitmessage'
     ~/.git_prompt: 'git_prompt'
+    ~/.git_template: 'git_template'
     ~/.vimrc: 'vimrc'
     ~/.vimrc: 'vimrc'
     ~/.vimrc.bundles: 'vimrc.bundles'
