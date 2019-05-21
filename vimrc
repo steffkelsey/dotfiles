@@ -14,6 +14,7 @@ set showcmd " display incomplete commands
 set incsearch " do incremental searching
 set laststatus=2 " always display the status line
 set autowrite " automatically :write before running commands
+colorscheme koehler
 
 " Switch syntax highlighting on, when terminal has colors
 " Also switch on highlighting the last used search pattern
