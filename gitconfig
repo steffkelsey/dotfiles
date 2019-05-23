@@ -20,8 +20,8 @@
   excludesfile = ~/.gitignore
   autocrlf = input
 [user]
-  name = Steff Kelsey
-  email = sk@lavjaveler.com
+  name = steffkelsey
+  email = thecodeviking@gmail.com
 [merge]
   ff = only
 [commit]
