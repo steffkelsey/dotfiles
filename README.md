@@ -1,34 +1,29 @@
 my dotfiles
 ===============
 
-I use [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles) and
-steffkelsey/dotfiles together using [the `*.local` convention][dot-local].
-
-[dot-local]: http://robots.thoughtbot.com/manage-team-and-personal-dotfiles-together-with-rcm
+I use [dotbot](https://github.com/anishathalye/dotbot). The only dependency is
+git.
 
 Requirements
 ------------
 
 Set zsh as my login shell.
 
-    chsh -s /bin/zsh
+  chsh -s /bin/zsh
 
-Install [rcm](https://github.com/mike-burns/rcm).
-
-    brew tap thoughtbot/formulae
-    brew install rcm
 
 Install
 -------
 
-Clone onto my laptop:
+Clone onto my laptop in the home folder:
 
-    git clone git://github.com/steffkelsey/dotfiles.git
+  git clone git://github.com/steffkelsey/dotfiles.git
 
 Install:
 
-    env RCRC=$HOME/steffkelsey/dotfiles/rcrc rcup
+  ./install
 
 This will create symlinks for config files in my home directory.
 
-I can safely run `rcup` multiple times to update.
+You can safely rerun ./install after any major changes are made.
+
