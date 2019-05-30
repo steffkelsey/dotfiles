@@ -7,6 +7,7 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.aliases.docker: 'aliases.docker'
     ~/.aliases: 'aliases.zsh'
     ~/.gitconfig: 'gitconfig'
     ~/.gitignore: 'gitignore'

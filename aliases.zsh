@@ -30,3 +30,6 @@ eval "$(thefuck --alias)"
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
+# include other alias files
+[[ -f ~/.aliases.docker ]] && source ~/.aliases.local
+
