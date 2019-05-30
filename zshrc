@@ -16,10 +16,10 @@ compinit
 # Go
 export GOROOT=/usr/local/go
 export GOPATH=~/go
-export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # Hashicorp
-export PATH=$PATH:/usr/local/packer
+export PATH=/usr/local/hashicorp:$PATH
 
 # Docker for WSL stuff
 export PATH=$PATH:$HOME/.local/bin
