@@ -17,6 +17,7 @@
     ~/.vimrc: 'vimrc'
     ~/.vimrc.bundles: 'vimrc.bundles'
     ~/.zshrc: 'zshrc'
+    ~/.secret_env_vars.local: 'secret_env_vars.local'
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

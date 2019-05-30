@@ -31,3 +31,6 @@ export DOCKER_HOST=tcp://localhost:2375
 # custom prompt
 source ~/.git_prompt
 
+# source the local env_vars
+source ~/.secret_env_vars.local
+
