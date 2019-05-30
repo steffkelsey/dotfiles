@@ -13,10 +13,13 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# Go stuff
+# Go
 export GOROOT=/usr/local/go
 export GOPATH=~/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+
+# Hashicorp
+export PATH=$PATH:/usr/local/packer
 
 # Docker for WSL stuff
 export PATH=$PATH:$HOME/.local/bin
