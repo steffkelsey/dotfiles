@@ -5,6 +5,9 @@ alias ln="ln -v"
 alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 
 # Bundler
 alias b='bundle'
@@ -31,5 +34,5 @@ eval "$(thefuck --alias)"
 alias path='echo $PATH | tr -s ":" "\n"'
 
 # include other alias files
-[[ -f ~/.aliases.docker ]] && source ~/.aliases.local
+[[ -f ~/.aliases.docker ]] && source ~/.aliases.docker
 
