@@ -19,6 +19,7 @@
     ~/.vimrc.bundles: 'vimrc.bundles'
     ~/.zshrc: 'zshrc'
     ~/.secret_env_vars.local: 'secret_env_vars.local'
+    ~/.tmux.conf: 'tmux.conf'
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
