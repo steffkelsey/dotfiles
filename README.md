@@ -19,6 +19,13 @@ Clone onto my laptop in the home folder:
 
   git clone git://github.com/steffkelsey/dotfiles.git
 
+Setup the env vars: 
+
+  cp secret_env_vars.local.example secret_env_vars.local 
+  nano secret_env_vars.local
+
+And change the OAUTH_TOKEN var to a read-only github PAT
+
 Install:
 
   ./install
