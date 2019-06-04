@@ -14,8 +14,8 @@ compinit
 # End of lines added by compinstall
 
 # Go
-export GOROOT=/usr/local/go
-export GOPATH=~/go
+export GOROOT=/c/go
+export GOPATH=/c/go_prj
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # Hashicorp
