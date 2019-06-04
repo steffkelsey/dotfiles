@@ -20,6 +20,7 @@
     ~/.zshrc: 'zshrc'
     ~/.secret_env_vars.local: 'secret_env_vars.local'
     ~/.tmux.conf: 'tmux.conf'
+    ~/.tmux: '~/tmux/plugins/tpm'
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

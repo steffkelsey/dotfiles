@@ -26,6 +26,10 @@ Setup the env vars:
 
 And change the OAUTH_TOKEN var to a read-only github PAT
 
+Clone the tmux plugin manager into the ~/tmux/plugins/tpm folder
+
+  git clone git://github.com/tpm-plugins/tpm ~/tmux/plugins/tpm
+
 Install:
 
   ./install
