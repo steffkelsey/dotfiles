@@ -28,7 +28,11 @@ And change the OAUTH_TOKEN var to a read-only github PAT
 
 Clone the tmux plugin manager into the ~/tmux/plugins/tpm folder
 
-  git clone git://github.com/tpm-plugins/tpm ~/tmux/plugins/tpm
+  git clone git://github.com/tmux-plugins/tpm ~/tmux/plugins/tpm
+
+Create a symbolic link in the ~ folder
+
+  ln -s ~/tmux ~/.tmux
 
 Install:
 
