@@ -26,6 +26,10 @@ export NVM_DIR="$HOME/.nvm"
 # Hashicorp
 export PATH=/usr/local/hashicorp:$PATH
 
+# Hashicorp WSL specific
+export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+export PATH="$PATH:/c/Program Files/Oracle/VirtualBox"
+
 # Docker for WSL stuff
 export PATH=$PATH:$HOME/.local/bin
 export DOCKER_HOST=tcp://localhost:2375
