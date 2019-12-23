@@ -39,6 +39,9 @@ export DOCKER_HOST=tcp://localhost:2375
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
+# ssh-agent
+[[ -f ~/.ssh_agent_config ]] && source ~/.ssh_agent_config
+
 # custom prompt
 source ~/.git_prompt
 

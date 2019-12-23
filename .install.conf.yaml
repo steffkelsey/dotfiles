@@ -19,6 +19,7 @@
     ~/.vimrc.bundles: 'vimrc.bundles'
     ~/.zshrc: 'zshrc'
     ~/.secret_env_vars.local: 'secret_env_vars.local'
+    ~/.ssh_agent_config: 'ssh_agent_config'
     ~/.tmux.conf: 'tmux.conf'
     ~/.tmux: '~/tmux/plugins/tpm'
 
