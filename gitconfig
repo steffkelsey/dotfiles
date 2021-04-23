@@ -21,7 +21,7 @@
   autocrlf = input
 [user]
   name = steffkelsey
-  email = thecodeviking@gmail.com
+	email = steff@blues.com
 [merge]
   ff = only
 [commit]
@@ -35,3 +35,5 @@
 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[pull]
+	rebase = true
