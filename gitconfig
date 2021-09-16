@@ -21,7 +21,7 @@
   autocrlf = input
 [user]
   name = steffkelsey
-	email = steff@blues.com
+  email = thecodeviking@gmail.com
 [merge]
   ff = only
 [commit]
