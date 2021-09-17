@@ -17,8 +17,8 @@ compinit
 source /usr/local/sandboxd-master/sandboxd
 
 # Go
-export GOROOT=/c/go
-export GOPATH=/c/go_prj
+export GOROOT=$HOME/go
+export GOPATH=$HOME/go_prj
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # NVM
