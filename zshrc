@@ -22,7 +22,7 @@ export GOPATH=/c/go_prj
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # NVM
-export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="/usr/local/nvm"
 
 # Hashicorp
 export PATH=/usr/local/hashicorp:$PATH
