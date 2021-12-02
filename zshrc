@@ -1,3 +1,16 @@
+# Allow local customizations in the ~/.shell_local_before file
+if [ -f ~/.shell_local_before ]; then
+  source ~/.shell_local_before
+fi
+
+# Allow local customizations in the ~/.zshrc_local_before file
+if [ -f ~/.zshrc_local_before ]; then
+  source ~/.zshrc_local_before
+fi
+
+# External plugins (initialized before)
+source ~/.zsh/plugins_before.zsh
+
 # env vars for editors
 export VISUAL=vim
 export EDITOR=$VISUAL
@@ -42,4 +55,14 @@ source ~/.git_prompt
 
 # source the local env_vars
 source ~/.secret_env_vars.local
+
+# allow local customizations in the ~/.shell_local_after file
+if [ -f ~/.shell_local_after ]; then
+  source ~/.shell_local_after
+fi
+
+# allow local customizations in the ~/.zshrc_local_after file
+if [ -f ~/.zshrc_local_after ]; then
+  source ~/.zshrc_local_after
+fi
 
