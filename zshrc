@@ -8,9 +8,6 @@ if [ -f ~/.zshrc_local_before ]; then
   source ~/.zshrc_local_before
 fi
 
-# External plugins (initialized before)
-source ~/.zsh/plugins_before.zsh
-
 # env vars for editors
 export VISUAL=vim
 export EDITOR=$VISUAL
