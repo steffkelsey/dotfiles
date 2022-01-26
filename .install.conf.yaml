@@ -14,6 +14,7 @@
     ~/.gitmessage: 'gitmessage'
     ~/.git_prompt: 'git_prompt'
     ~/.git_template: 'git_template'
+    ~/.ideavimrc: 'ideavimrc'
     ~/.vimrc: 'vimrc'
     ~/.vimrc.bundles: 'vimrc.bundles'
     ~/.zshrc: 'zshrc'
