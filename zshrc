@@ -31,6 +31,9 @@ export GOROOT=/mnt/c/go
 export GOPATH=/mnt/c/go_prj
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+# pip3 installs (at least aws-mfa)
+export PATH=~/.local/bin:$PATH
+
 # NVM
 export NVM_DIR="/usr/local/nvm"
 
