@@ -30,10 +30,6 @@ export GOPATH=~/go
 # pip3 installs (at least aws-mfa)
 export PATH=~/.local/bin:$PATH
 
-# Hashicorp Vagrant WSL specific
-export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
-export PATH="$PATH:/c/Program Files/Oracle/VirtualBox"
-
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
