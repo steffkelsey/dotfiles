@@ -23,24 +23,14 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# sandboxd
-source /usr/local/sandboxd-master/sandboxd
-
 # Go
-export GOROOT=/mnt/c/go
-export GOPATH=/mnt/c/go_prj
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export GOROOT=/usr/local/go
+export GOPATH=~/go
 
 # pip3 installs (at least aws-mfa)
 export PATH=~/.local/bin:$PATH
 
-# NVM
-export NVM_DIR="/usr/local/nvm"
-
-# Hashicorp
-export PATH=/usr/local/hashicorp:$PATH
-
-# Hashicorp WSL specific
+# Hashicorp Vagrant WSL specific
 export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 export PATH="$PATH:/c/Program Files/Oracle/VirtualBox"
 
@@ -65,4 +55,7 @@ fi
 if [ -f ~/.zshrc_local_after ]; then
   source ~/.zshrc_local_after
 fi
+
+# add the Go binary to the path here in case a local install had it different
+export PATH=$GOROOT/bin:$PATH
 

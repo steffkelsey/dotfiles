@@ -1,0 +1,11 @@
+# This file can be used to add local customizations to the zshrc dotfile.
+# The examples below show how to change make Go and vagrant work on a WSL Ubuntu
+
+# Go
+export GOROOT=/mnt/c/go
+export GOPATH=/mnt/c/go_prj
+
+# Hashicorp Vagrant WSL specific
+export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+export PATH="$PATH:/c/Program Files/Oracle/VirtualBox"
+

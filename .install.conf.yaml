@@ -18,7 +18,7 @@
     ~/.vimrc: 'vimrc'
     ~/.vimrc.bundles: 'vimrc.bundles'
     ~/.zshrc: 'zshrc'
-    ~/.sandboxrc: 'sandboxrc'
+    ~/.zshrc_local_after: 'zshrc_local_after'
     ~/.secret_env_vars.local: 'secret_env_vars.local'
     ~/.ssh_agent_config: 'ssh_agent_config'
     ~/.tmux.conf: 'tmux.conf'
