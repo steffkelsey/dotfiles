@@ -29,9 +29,9 @@ export GOPATH=~/go
 
 # Ansible
 # This fixes an issue where ansible logs have no colors in a tmux session
-ANSIBLE_FORCE_COLOR=1
+export ANSIBLE_FORCE_COLOR=1
 # Not sure if PY_COLORS has a big impact, but throwing it in too
-PY_COLORS=1
+export PY_COLORS=1
 
 # pip3 installs (at least aws-mfa)
 export PATH=~/.local/bin:$PATH
