@@ -9,34 +9,34 @@ Requirements
 
 Set zsh as my login shell.
 
-  chsh -s /bin/zsh
+  `chsh -s /bin/zsh`
 
 
 Install
 -------
 
-Clone onto my laptop in the home folder:
+Clone onto my laptop in the home folder:  
 
-  git clone git://github.com/steffkelsey/dotfiles.git
+  `git clone git://github.com/steffkelsey/dotfiles.git`
 
-Setup the env vars: 
+Setup the env vars:  
 
-  cp secret_env_vars.local.example secret_env_vars.local 
-  nano secret_env_vars.local
+  `cp secret_env_vars.local.example secret_env_vars.local`  
+  `nano secret_env_vars.local`
 
-And change the OAUTH_TOKEN var to a read-only github PAT
+And change the OAUTH_TOKEN var to a read-only github PAT  
 
-Clone the tmux plugin manager into the ~/tmux/plugins/tpm folder
+Clone the tmux plugin manager into the ~/tmux/plugins/tpm folder  
 
-  git clone git://github.com/tmux-plugins/tpm ~/tmux/plugins/tpm
+  `git clone git@github.com:tmux-plugins/tpm ~/tmux/plugins/tpm`
 
-Create a symbolic link in the ~ folder
+Create a symbolic link in the ~ folder  
 
-  ln -s ~/tmux ~/.tmux
+  `ln -s ~/tmux ~/.tmux`
 
-Install:
+Install:  
 
-  ./install
+  `./install`
 
 This will create symlinks for config files in my home directory.
 
