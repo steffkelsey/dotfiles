@@ -42,6 +42,9 @@ source ~/.git_prompt
 # source the local env_vars
 source ~/.secret_env_vars.local
 
+# Add arkade binary directory to PATH variable
+export PATH=$PATH:$HOME/.arkade/bin/
+
 # allow local customizations in the ~/.shell_local_after file
 if [ -f ~/.shell_local_after ]; then
   source ~/.shell_local_after
