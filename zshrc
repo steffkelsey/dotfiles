@@ -27,9 +27,6 @@ compinit
 export GOROOT=/usr/local/go
 export GOPATH=~/go
 
-# Hashicorp
-export PATH=/usr/local/hashicorp:$PATH
-
 # pip3 installs (at least aws-mfa)
 export PATH=~/.local/bin:$PATH
 
