@@ -56,5 +56,5 @@ if [ -f ~/.zshrc_local_after ]; then
 fi
 
 # add the Go binary to the path here in case a local install had it different
-export PATH=$GOROOT/bin:$PATH
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
