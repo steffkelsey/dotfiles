@@ -2,10 +2,9 @@
 # The examples below show how to change make Go and vagrant work on a WSL Ubuntu
 
 # Go
+# Useful if using Docker for dev and Jetbrains Goland for an IDE and you want
+# to use the windows filesystem for everything because the debugger integration
+# just works. Not recommended for Tilt+minikube local-dev on WSL2.
 export GOROOT=/mnt/c/go
 export GOPATH=/mnt/c/go_prj
-
-# Hashicorp Vagrant WSL specific
-export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
-export PATH="$PATH:/c/Program Files/Oracle/VirtualBox"
 

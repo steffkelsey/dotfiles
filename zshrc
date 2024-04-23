@@ -25,7 +25,7 @@ compinit
 
 # Go
 export GOROOT=/usr/local/go
-export GOPATH=~/go
+export GOPATH=$HOME/go
 
 # pip3 installs (at least aws-mfa)
 export PATH=~/.local/bin:$PATH
