@@ -8,3 +8,5 @@
 export GOROOT=/mnt/c/go
 export GOPATH=/mnt/c/go_prj
 
+# mise
+eval "$(~/.local/bin/mise activate zsh)"
