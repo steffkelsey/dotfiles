@@ -1,2 +1,37 @@
-secret_env_vars.local
-zshrc_local_after
+# Debug logs
+*.log
+log/
+
+# Editor artifacts
+.vscode
+.idea
+.#*
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.swk
+*.bak
+*.backup
+*.orig
+*.ref
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dependencies
+node_modules/
+vendor/
+
+# Sensitive files
+*.env
+*.key
+*.pem
+*.credentials
+*.password
+*.secret

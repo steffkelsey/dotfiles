@@ -1,5 +1,0 @@
-#!/bin/sh
-# This is called when git commands are rewriting already committed data. In
-# addition to the parameters, it receives strings in stdin in the form of
-# “<old-sha1> <new-sha1>”.
-
