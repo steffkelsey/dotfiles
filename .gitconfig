@@ -1,0 +1,41 @@
+[init]
+  defaultBranch = main
+[push]
+  default = simple
+[color]
+  ui = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[alias]
+  aa = add --all
+  co = checkout
+  pf = push --force-with-lease
+  s = status
+  c = commit
+  ca = commit -a
+  cm = commit -m
+  cam = commit -am
+  cf = commit --fixup
+  d = diff
+  dc = diff --cached
+  l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[user]
+  name = steffkelsey
+  email = thecodeviking@gmail.com
+[merge]
+  ff = only
+[commit]
+  template = ~/.gitmessage
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
+[diff]
+  colorMoved = zebra
+[pull]
+  rebase = true
