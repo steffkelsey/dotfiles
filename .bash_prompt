@@ -2,5 +2,4 @@
 source ~/.git_prompt
 
 # change the prompt
-export PS1=[\u@\h \w] $(__git_ps1 "(%s)")\n\$
-
+export PS1='[\u@\h \w] $(__git_ps1 "(%s)")\n\$'
