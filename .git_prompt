@@ -1,0 +1,10 @@
+# Source the git-prompt.sh from shared
+. /usr/share/git-core/contrib/completion/git-prompt.sh
+
+# Customize using env vars
+export GIT_PS1_SHOWUPSTREAM=auto
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWCOLORHINTS=true
+export GIT_PS1_SHOWSTASHSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+export GIT_PS1_SHOWCONFLICTSTATE=true
