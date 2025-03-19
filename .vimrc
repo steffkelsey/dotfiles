@@ -36,3 +36,10 @@ set showmatch           " show matching bracket
 " other
 set guioptions=aAace    " don't show scrollbar in MacVim
 
+" load plugins (requires vim-plug in ~/.vim/autoload/plug.vim)
+call plug#begin()
+
+"Plug 'tpope/vim-sensible'
+Plug 'christoomey/vim-tmux-navigator'
+
+call plug#end()
