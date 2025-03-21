@@ -1,5 +1,4 @@
 syntax on               " enable syntax highlighting
-set cursorline          " highlight the current line
 set ruler               " show line number in bar
 set nobackup            " don't create pointless backup files; Use VCS instead
 set autoread            " watch for file changes
@@ -15,8 +14,8 @@ filetype indent on      " enable filetype-specific indenting
 filetype plugin on      " enable filetype-specific plugins
 
 " column-width visual indication
-let &colorcolumn=join(range(81,999),",")
-highlight ColorColumn ctermbg=235 guibg=#001D2F
+let &colorcolumn=join(range(81,82),",")
+highlight ColorColumn ctermbg=12
 
 " tabs and indenting
 set autoindent          " auto indenting
