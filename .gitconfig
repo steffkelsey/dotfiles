@@ -10,6 +10,7 @@
   status = auto
 [alias]
   aa = add --all
+  b = branch
   co = checkout
   pf = push --force-with-lease
   s = status
