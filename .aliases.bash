@@ -1,5 +1,5 @@
 # file 
-alias lal="ls -al"
+alias ll.="ls -al"
 alias mkdir="mkdir -p"
 alias ..="cd .."
 alias ...="cd ../.."
